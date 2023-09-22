@@ -1,24 +1,42 @@
 package teste;
 
 public class Login {
-    public String login;
-    private String senha;
+    public String Nome;
+    public String Usuario;
+    private String Senha;
+    public String Email;
 
-    public String getLogin() {
-        return login;
+    public String getEmail() {
+        return Email;
     }
 
-    public void setLogin(String login) {
-        this.login = login;
+    public void setEmail(String Email) {
+        this.Email = Email;
+    }
+
+    public String getNome() {
+        return Nome;
+    }
+
+    public void setNome(String Nome) {
+        this.Nome = Nome;
+    }
+
+    public String getUsuario() {
+        return Usuario;
+    }
+
+    public void setLogin(String Usuario) {
+        this.Usuario = Usuario;
     }
 
     public String getSenha() {
-        return senha;
+        return Senha;
     }
 
-    public void setSenha(String senha) {
-        this.senha = senha;
+    public void setSenha(String Senha) {
+        this.Senha = Senha;
     }
-    
-    
 }
+    
+    
